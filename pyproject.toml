@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "crosssellupsellmlapp"
+version = "0.1.0"
+description = "An End-to-End Cross-Sell and Upsell Prediction Model"
+authors = ["Dr. Jody-Ann S. Jones"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.3"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+pytest = "^8.3.4"
+kaggle = "^1.6.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
